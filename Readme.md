@@ -6,10 +6,10 @@ A comprehensive news aggregation system featuring circular visualization and tem
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/news-aggregator.git
+git clone https://github.com/shroudcamo6/orbit.git
 
 # Run setup script
-cd news-aggregator
+cd orbit
 npm run setup
 ```
 
@@ -25,7 +25,7 @@ npm run setup
 ## Project Structure
 
 ```plaintext
-news-aggregator/
+orbit/
 ├── src/
 │   ├── components/
 │   │   ├── CircularTimeline.js
@@ -46,7 +46,7 @@ news-aggregator/
 Create a `.env` file with the following format:
 
 ```bash
-MONGODB_URI=mongodb://localhost/news-aggregator
+MONGODB_URI=mongodb://localhost/orbit
 RSS_FEEDS=https://feeds.bbci.co.uk/news/rss.xml,https://www.nytimes.com/services/xml/rss/nyt/HomePage.xml
 ```
 
@@ -56,4 +56,4 @@ RSS_FEEDS=https://feeds.bbci.co.uk/news/rss.xml,https://www.nytimes.com/services
 2. Start development server: `npm start`
 3. Deploy to GitHub Pages: `npm run deploy`
 
-The application will be available at [https://yourusername.github.io/news-aggregator](https://yourusername.github.io/news-aggregator)
+The application will be available at [https://shroudcamo6.github.io/orbit](https://shroudcamo6.github.io/orbit)
