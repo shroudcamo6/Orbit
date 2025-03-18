@@ -6,7 +6,7 @@ if ! command -v git &> /dev/null; then
     if [[ "$OSTYPE" == "msys" ]]; then
         winget install Git.Git
     elif [[ "$OSTYPE" == "darwin"* ]]; then
-        brew install git 
+        brew install git
     else
         sudo apt-get install git
     fi
