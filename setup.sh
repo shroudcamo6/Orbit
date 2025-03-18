@@ -6,7 +6,7 @@ if ! command -v git &> /dev/null; then
     if [[ "$OSTYPE" == "msys" ]]; then
         winget install Git.Git
     elif [[ "$OSTYPE" == "darwin"* ]]; then
-        brew install git
+        brew install git 
     else
         sudo apt-get install git
     fi
@@ -14,8 +14,8 @@ fi
 
 # Clone repository
 echo "Cloning repository..."
-git clone https://github.com/yourusername/news-aggregator.git
-cd news-aggregator
+git clone https://github.com/shroudcamo6/orbit.git
+cd orbit
 
 # Install Node.js and npm
 echo "Installing Node.js and npm..."
@@ -48,7 +48,7 @@ npm install
 
 # Create environment file
 echo "Creating environment file..."
-echo "MONGODB_URI=mongodb://localhost/news-aggregator
+echo "MONGODB_URI=mongodb://localhost/orbit
 RSS_FEEDS=https://feeds.bbci.co.uk/news/rss.xml,https://www.nytimes.com/services/xml/rss/nyt/HomePage.xml" > .env
 
 # Initialize MongoDB
