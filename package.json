@@ -1,7 +1,7 @@
 {
   "name": "orbit",
   "version": "1.0.0",
-  "description": "Comprehensive news aggregator with circular visualization",
+  "description": "News aggregator with circular visualization",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
