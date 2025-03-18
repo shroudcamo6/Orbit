@@ -1,5 +1,5 @@
 {
-  "name": "news-aggregator",
+  "name": "orbit",
   "version": "1.0.0",
   "description": "Comprehensive news aggregator with circular visualization",
   "main": "src/index.js",
